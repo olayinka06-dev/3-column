@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(231 231 221);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    color: white;
+}
+.first{
+    min-height: 380px;
+    width: 300px;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.first h1{
+    font-size: 27px;
+    
+}
+.first p{
+    font-size: 18px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+
+}
+.first button{
+    padding: 10px 25px;
+    border: none;
+    background-color: white;
+    color: chocolate;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 13px;
+    }
+.second{
+    min-height: 380px;
+    width: 300px;
+    background-color: rgb(10, 128, 128);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+}
+.second h1{
+    font-size: 27px;
+    
+}
+.second p{
+    font-size: 18px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+
+}
+.second button{
+    padding: 10px 25px;
+    border: none;
+    background-color: white;
+    color: rgb(10, 128, 128);
+    cursor: pointer;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 13px;
+}
+
+.third{
+    min-height: 380px;
+    width: 300px;
+    background-color: rgb(28, 99, 99);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.third h1{
+    font-size: 27px;
+    
+}
+.third p{
+    font-size: 18px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+.third button{
+    padding: 10px 25px;
+    border: none;
+    background-color: white;
+    color:  rgb(28, 99, 99);
+    cursor: pointer;
+    border-radius: 20px;
+    width: 120px;
+    font-size: 13px;
+}
+svg{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+
+
+
+@media only screen and (max-width: 950px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .first{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+
+    }
+    .third{
+        border-top-right-radius: 0;
+border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+}
